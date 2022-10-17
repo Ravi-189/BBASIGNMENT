@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          body{
+            margin:0;
+          }
+            .container{
+               margin:auto;
+               width :1800px;
+               height:600px;
+               display :grid;
+               grid-template-columns : 1800px;
+               grid-template-rows: 100px 500px 150px;
+  
+               /* grid-gap:5px; */
+            }
+            .box {
+        text-align: center;
+        color: white;
+       
+      }
+      .box1 {
+        background-color: black;
+        text-align: center;
+
+      }
+      .box2 {
+        /* background-color: lightgreen; */
+        display:grid;
+        grid-template-columns: 400px 1400px;
+        
+      }
+      .box3 {
+        background-color: lightslategrey;
+        /* display:grid;
+        grid-template-columns: 1fr 1fr 1fr; */
+      }
+      .box21 {
+        background-color: black;
+      }
+      .box22 {
+        /* background-color: orange; */
+      }
+      /* .box31 {
+        background-color: blue;
+      }
+      .box32 {
+        background-color: blanchedalmond;
+      }
+      .box33 {
+        background-color: black;
+      } */
+      a{
+        color:white;
+        text-decoration: none;
+        margin-right: 50px;
+        line-height: 50px;
+
+      }
+      
+        </style>
+
+    </head>
+    <body>
+        <div class = "container" >
+            <div class ="box box1" >
+              <a href ="htmlconcepts.html" target = "techconcepts">HTML</a>
+              <a href ="cssconcepts.html" target = "techconcepts">CSS</a>
+              <a href ="">JAVASCRIPT</a>
+              <a href ="">JAVA</a>
+              <a href ="">PYTHON</a>
+              <a href ="">MACHINE LEARNING</a>
+            </div>
+            <div class ="box box2" >
+                <div class ="box21">
+                    <iframe width ="100%" height = "100%" name = "techconcepts" src="htmlconcepts.html"></iframe>
+                    <!-- <iframe width ="100%" height = "100%" name = "techconcepts" src="cssconcepts.html"></iframe> -->
+                </div>
+                <div class ="box22">
+                    <iframe width = "100%" height="100%" name = "infoconcepts" src = "infohtml.html"></iframe>
+                </div>
+            </div>
+            <div class ="box box3" > Box3
+                <!-- <div class ="box31">Box 3 1</div>
+                <div class ="box32">Box 3 2</div>
+                <div class ="box33">Box 3 3</div> -->
+
+            </div>
+            <!-- <div class ="box box4" >box4</div>
+            <div class ="box box5" >box5</div>
+            <div class ="box box6" >box6</div> -->
+        </div>
+
+    </body>
+</html>
